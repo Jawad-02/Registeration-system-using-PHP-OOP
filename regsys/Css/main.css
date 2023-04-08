@@ -1,0 +1,56 @@
+.main-content{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .alert{
+    position: absolute;
+    top: 5vh;
+}
+.main-content .btn{
+    position: absolute;
+    top: 80vh;
+    left:100vh;
+}
+.main-content .h1{
+    position: absolute;
+    top: 15vh;
+}
+.wrapper-main{
+    width: 900px;
+    margin: 0 auto;
+}
+.wrapper-main table{
+    width: 100%;
+}
+.wrapper-main table tr th{
+    font-weight: bold;
+    border: 2px #1e1e1e solid;
+    text-align: center;
+}
+.wrapper-main table tr .buttons{
+    display: flex;
+    align-items: center;
+}
+.wrapper-main table tr td{
+    border: 2px #1e1e1e solid;
+    text-align: center;
+}
+
+.wrapper-main table tr td a{
+    display: inline-block;
+    text-decoration: none;
+    color: #1e1e1e;
+    cursor: pointer;
+    width: 50%;
+    border: 1px  #4545d0 solid;
+    margin: 1px;
+    padding: 1px;
+}
+.wrapper-main table tr td a:hover{
+    background-color: #4545d0;
+}
